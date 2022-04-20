@@ -1,0 +1,53 @@
+﻿@charset "utf-8";
+* {font-family: 'Montserrat', sans-serif; margin:0; box-sizing:border-box;}
+body {margin: 0; padding: 0;}
+ul,ol,li {list-style: none; margin: 0; padding: 0;}
+
+/*헤더*/
+header {width: 1250px; height: 180px; margin: 0 auto;}
+		#logo {width: 190px; height: 50px; float: left; margin: 45px 0 0 535px;}
+
+		#login {width: 270px; height: 30px; float: right; margin: 10px 20px 0 0px;}
+		#login > ul > li > a {text-decoration: none; color: #666; text-transform: uppercase; float: left; margin: 5px 2px 0 15px; font-size: 13px;}
+
+		nav {width: 1100px; height: 30px; float: left; margin:50px 0 0 75px;}
+		nav > ul > li > a {text-decoration: none; color: #000; text-transform: uppercase; float: left; font-weight: bold; margin: 0 0 0 35px; font-size: 15px; text-align: justify; }
+		nav > ul > li > a:hover {color: yellowgreen;}
+		nav > ul > #sale > a:hover {color: red;}
+		nav > ul > #un > a {color: darkred;}
+
+		.search-container {margin: -100px 70px 0 0px; width: 200px; height: 25px; float: right;}
+		.search-container > input {float: right; background-color: #fff; height: 25px; width: 180px; margin: 0px; border: 1px solid #333; outline :none; transition: width 0.3s; border-radius:20px; font-size:11px;}
+		.search-container > input::placeholder {color:#6e6e6e; padding:0 0 0 10px;}
+		.search-container > input:focus { width: 240px; height:25px; color:#333; padding:0 0 0 10px;}
+		.search-container > input:blur {opacity:0.5; }
+		.search-container > i {color:#333; position:absolute; right:370px; top:79px;}
+
+
+/*풋터*/
+		footer {width: 100%; height: 300px; margin: 0 auto; background-color: #F6F6F6;}
+		footer > #footerbox {width: 1250px; height: 190px; margin: 0 auto;}
+		footer > #footerbox > hr {background-color: #C0C0C0;}
+
+
+		footer > #footerbox > #footerbox2 {width: 650px; height: 190px; display: inline-block; float: left; margin: 0 0 0 20px;}
+		footer > #footerbox > #footerbox2 > #footerlogo {width: 105px; height: 25px; margin: 30px 0px 15px;}
+		footer > #footerbox > #footerbox2 > #footerlogo > img {width: 100%; height: 100%;}
+		footer > #footerbox > #footerbox2 > p {font-size: 12px; color: #666; font-family: sans-serif;}
+		footer > #footerbox > #footerbox2 > p > a {text-decoration: none; color: #333;}
+		footer > #footerbox > #footerbox2 > ul > b {font-size: 11px; float: left; margin: 20px 3px 0 0px; font-family: sans-serif;}
+		footer > #footerbox > #footerbox2 > ul > b > li > a {text-decoration: none; color: #333;}
+		footer > #footerbox > #footerbox2 > ul > li {font-size: 11px; float: left; margin: 20px 6px 0 0px; font-family: sans-serif; color: #9C9C9C;}
+		footer > #footerbox > #footerbox2 > ul > li > a {text-decoration: none; color: #666;}
+
+
+		footer > #footerbox > #footerbox3 {width: 550px; height: 190px; display: inline-block; float: right; margin: 0px 30px 0 0px;}
+		footer > #footerbox > #footerbox3 > .box {width: 140px; height: 150px; display: inline-block; float: left; margin: 60px 0px 0px 90px;}
+		footer > #footerbox > #footerbox3 > .box > h4 {text-transform: uppercase; font-size: 15px; margin: 0 0 10px 0px;}
+		footer > #footerbox > #footerbox3 > .box > ul > li > a {text-decoration: none; color: #666; font-family: sans-serif; font-size: 12px; text-transform: uppercase; font-weight: bold;}
+		footer > #footerbox > #footerbox3 > .box > ul > li > a:hover {color: #000;}
+		footer > #footerbox > #footerbox3 > .box > a > img {width: 40px; height: 40px;}
+		footer > #footerbox > #footerbox3 > .box > a > img:hover {opacity: 0.5;}
+
+		footer > #footerbox > #footerbox4 {width: 1200px; height: 100px; margin: 0 auto; float: left; border-top: 1px solid #ddd;}
+		footer > #footerbox > #footerbox4 > p {color: #666; font-family: sans-serif; font-size: 11px; margin: 20px;}
